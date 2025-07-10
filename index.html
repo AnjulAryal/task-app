@@ -1,11 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Task App</title>
-  </head>
-  <body>
-    <h1>Welcome to Task App</h1>
-  </body>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Focus on Today</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1><span>Focus on</span> Today</h1>
+    </header>
+
+    <div class="main">
+      <div class="work-section">
+        <h2>Today's Work <img src="https://img.icons8.com/ios-filled/50/briefcase.png" alt="Work Icon" /></h2>
+        <p class="subtext">Build your momentum–start today, push hard, and don’t stop until you’ve won.</p>
+        <div class="progress-bar"></div>
+        <p class="error">Please set all the 3 goals!</p>
+
+        <div class="goal">
+          <span class="circle"></span>
+          <input type="text" placeholder="Add a new goal.........." />
+          <div class="icons">
+            <span class="edit">✏️</span>
+            <span class="delete">🗑️</span>
+          </div>
+        </div>
+        <div class="goal">
+          <span class="circle"></span>
+          <input type="text" placeholder="Add a new goal.........." />
+          <div class="icons">
+            <span class="edit">✏️</span>
+            <span class="delete">🗑️</span>
+          </div>
+        </div>
+        <div class="goal">
+          <span class="circle"></span>
+          <input type="text" placeholder="Add a new goal.........." />
+          <div class="icons">
+            <span class="edit">✏️</span>
+            <span class="delete">🗑️</span>
+          </div>
+        </div>
+
+        <p class="quote">“Start moving now, and own your tomorrow.”</p>
+      </div>
+
+      <aside>
+        <nav>
+          <ul>
+            <li><a href="#">Dashboard</a></li>
+            <li><a href="#">Weekly</a></li>
+            <li class="active"><a href="#">Daily</a></li>
+            <li><a href="#">Monthly</a></li>
+          </ul>
+        </nav>
+        <button class="add-task"><span>➕</span> Add task</button>
+      </aside>
+    </div>
+  </div>
+</body>
 </html>
